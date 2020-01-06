@@ -1,0 +1,24 @@
+server:
+  port: 8088
+  
+  
+notification:
+   text:
+      message: local hello text from yaml places
+      from: 8787878787
+   email:
+      message: hello email from bbc local
+      from: hadi286@icloud.com
+     
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/macroservice
+    username: root
+    password: root  
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect
+   
